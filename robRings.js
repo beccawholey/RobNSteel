@@ -6,6 +6,7 @@ function addInfo() {
   let cellSku, cellDescription, cellQty, cellCost, cellPrice, cellImage;
 
   // closes modal when submit button is clicked
+  $(".bg-modal").toggle(false);
  document.querySelector('.bg-modal').style.display = 'none';
 
  // validation
